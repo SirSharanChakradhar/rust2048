@@ -20,6 +20,7 @@ fn print_grid (grid: &Vec<Vec<u64>>) {
    println!();
 }
 
+fn spawn_tile(grid: &Vec<Vec<u64>>); 
 
 fn main() {
    let mut my_grid = grid();
