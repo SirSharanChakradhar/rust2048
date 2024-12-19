@@ -1,14 +1,19 @@
-pub mod grid;
 
-pub(crate) fn main() {
-    // Step 1: Initialize the grid
-    let mut grid = init_grid();
 
-    // Step 2: Spawn two initial tiles
-    spawn_tile(&mut grid);
-    spawn_tile(&mut grid);
-
-    // Step 3: Print the grid to check the initialization
-    print_grid(&grid);
+fn main() {
+grid()
 }
 
+
+
+fn grid() {
+
+   let vector_of_vector: Vec<Vec<u64>> = vec! [
+    vec![1 , 1 , 1 , 1 ],
+    vec![1 , 1 , 1 , 1 ],
+    vec![1 , 1 , 1 , 1 ],
+    vec![1 , 1 , 1 , 1 ]
+   ];
+
+   println!("{} {} {} {} {}", {}, {},{},{},vector_of_vector);
+}
