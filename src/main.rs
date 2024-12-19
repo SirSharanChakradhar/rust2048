@@ -1,12 +1,11 @@
-
-
 fn main() {
-grid()
+let mygrid = grid();
+println!("{:#?}",mygrid);
 }
 
 
 
-fn grid() {
+fn grid()->  Vec<Vec<u64>> {
 
    let vector_of_vector: Vec<Vec<u64>> = vec! [
     vec![0 , 0 , 0 , 0 ],
@@ -15,5 +14,5 @@ fn grid() {
     vec![0 , 0 , 0 , 0 ]
    ];
 
-   println!("{:#?}",vector_of_vector);
+   vector_of_vector
 }
